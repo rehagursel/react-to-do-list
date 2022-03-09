@@ -1,0 +1,23 @@
+.item-date {
+  display: flex;
+  flex-direction: column;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid #c8e8fc;
+  background-color: #2972ee;
+  color: #c8e8fc;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1.5rem;
+}
+
+.item-date__month {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.item-date__day {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
