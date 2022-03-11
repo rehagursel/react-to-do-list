@@ -17,8 +17,9 @@ React To-do List App (I continue to develop the app)
 - NPM
 
 ## Installation
-$ git clone git@github.com:rehagursel/react-to-do-list.git
-$ cd react-to-do-list
-$ npm install
-$ npm start
+- $ git clone git@github.com:rehagursel/react-to-do-list.git
+- $ cd react-to-do-list
+- $ npm install
+- $ npm start
+
 The application will open in the browser on http://localhost:3000
