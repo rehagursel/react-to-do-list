@@ -13,7 +13,7 @@ const EachItem = (props) => {
 
   return (
     <li>
-      <Card className="item">
+      <div className="item">
         <ItemDate date={props.date} />
         <div className="item__description">
           <h2>{props.title}</h2>
@@ -22,7 +22,7 @@ const EachItem = (props) => {
           </div>
         </div>
         {/* <button onClick={clickHandler}>Change Title</button> */}
-      </Card>
+      </div>
     </li>
   );
 };

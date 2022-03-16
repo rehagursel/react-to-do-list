@@ -23,15 +23,13 @@ const Items = (props) => {
   });
 
   return (
-    <div>
-      <Card className="items">
-        <ItemsFilter
-          selected={filterMounth}
-          onChangeFilterMounth={filterMounthChangeHandler}
-        />
-        <ItemsList itemsRendering={filteredItems} />
-      </Card>
-    </div>
+    <Card className="items">
+      <ItemsFilter
+        selected={filterMounth}
+        onChangeFilterMounth={filterMounthChangeHandler}
+      />
+      <ItemsList itemsRendering={filteredItems} />
+    </Card>
   );
 };
 

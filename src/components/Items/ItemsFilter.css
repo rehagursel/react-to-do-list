@@ -18,18 +18,18 @@
 
 .items-filter select {
   font: inherit;
-  padding: 0.2rem 0.3rem;
+  padding: 0.2rem 0.1rem;
   font-weight: normal;
   border-radius: 6px;
-  margin-right: 3.5rem;
+  margin-right: 4.5rem;
   font-size: 14px;
 }
 
 @media (min-width: 580px) {
   .items-filter select {
-    margin-right: 1rem;
+    margin-right: 2.5rem;
     font-weight: bold;
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 0.5rem;
     font-size: 16px;
   }
 }

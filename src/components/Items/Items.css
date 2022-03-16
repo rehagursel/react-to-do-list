@@ -1,10 +1,5 @@
 .items {
   padding: 1rem;
-  background-color: #171b2f;
-  margin: 0 auto;
-  width: 95%;
-  max-width: 50rem;
-  min-width: 23rem;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }

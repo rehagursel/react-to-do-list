@@ -1,16 +1,10 @@
 .new-item {
+  padding: 2rem 2rem 1rem 2rem;
+  text-align: center;
   display: flex;
   justify-content: center;
-  width: 95%;
-  max-width: 50rem;
-  min-width: 23rem;
-  background-color: #171b2f;
-  padding: 2rem 2rem 1rem 2rem;
-  margin: 0 auto;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  text-align: center;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
 }
 
 .new-item button {
@@ -25,7 +19,7 @@
 }
 
 .new-item h2 {
-  font-weight:900;
+  font-weight: 900;
   font-size: 35px;
   color: rgb(205, 208, 218);
 }

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import "./NewItem.css";
 import ItemForm from "./ItemForm";
+import Card from "../UI/Card";
 
 const NewItem = (props) => {
   const [isEditing, setIsEditing] = useState(false);
@@ -23,7 +24,7 @@ const NewItem = (props) => {
   };
 
   return (
-    <div className="new-item">
+    <Card className="new-item">
       {!isEditing && (
         <div>
           <h2>To Do List</h2>
@@ -36,7 +37,7 @@ const NewItem = (props) => {
           onCancel={stopEditingHandler}
         />
       )}
-    </div>
+    </Card>
   );
 };
 
