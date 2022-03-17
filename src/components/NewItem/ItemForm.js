@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+import Button from "../UI/Button";
 import "./ItemForm.css";
 
 const ItemForm = (props) => {
@@ -41,7 +42,6 @@ const ItemForm = (props) => {
         <div className="new-item__control">
           <label>Title</label>
           <input
-            required
             type="text"
             value={enteredTitle}
             onChange={titleChangeHandler}
@@ -50,9 +50,7 @@ const ItemForm = (props) => {
         <div className="new-item__control">
           <label>Duration (day)</label>
           <input
-            required
             type="number"
-            min="0.5"
             step="0.5"
             value={enteredDuration}
             onChange={durationChangeHandler}
@@ -71,10 +69,10 @@ const ItemForm = (props) => {
         </div>
       </div>
       <div className="new-item__actions">
-        <button type="submit">Add</button>
-        <button type="button" onClick={props.onCancel}>
+        <Button type="submit">Add</Button>
+        <Button type="button" onClick={props.onCancel}>
           Cancel
-        </button>
+        </Button>
       </div>
     </form>
   );

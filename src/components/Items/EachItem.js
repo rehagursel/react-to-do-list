@@ -1,7 +1,6 @@
 import React from "react";
 
 import ItemDate from "./ItemDate";
-import Card from "../UI/Card";
 import "./EachItem.css";
 
 const EachItem = (props) => {

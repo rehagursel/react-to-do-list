@@ -7,25 +7,16 @@
   border-top-right-radius: 20px;
 }
 
-.new-item button {
-  font: inherit;
-  cursor: pointer;
-  padding: 0.8rem 1.5rem;
-  border: 1px solid #2972ee;
-  background-color: #2972ee;
-  color: #c8e8fc;
-  border-radius: 12px;
-  margin: 1rem;
-}
-
 .new-item h2 {
   font-weight: 900;
   font-size: 35px;
   color: rgb(205, 208, 218);
 }
 
-.new-item button:hover,
-.new-item button:active {
-  background-color: #6194ec;
-  border-color: #6194ec;
-}
+/* .modal.off {
+  opacity: 0;
+  visibility: hidden;
+  filter: blur(8px);
+  transform: scale(0.33);
+  box-shadow: 1rem 0 0 rgba(black, 0.2);
+} */
