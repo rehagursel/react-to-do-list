@@ -5,6 +5,7 @@ import ItemForm from "./ItemForm";
 import Card from "../UI/Card";
 import Button from "../UI/Button";
 import ErrorModal from "../UI/ErrorModal";
+import Wrapper from "../Helpers/Wrapper";
 
 const NewItem = (props) => {
   const [isEditing, setIsEditing] = useState(false);
@@ -50,7 +51,7 @@ const NewItem = (props) => {
   };
 
   return (
-    <div>
+    <Wrapper>
       {error && (
         <ErrorModal
           className={error}
@@ -73,7 +74,7 @@ const NewItem = (props) => {
           />
         )}
       </Card>
-    </div>
+    </Wrapper>
   );
 };
 

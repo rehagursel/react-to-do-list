@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import NewItem from "./components/NewItem/NewItem";
 import Items from "./components/Items/Items";
+import Wrapper from "./components/Helpers/Wrapper";
 
 const dumyList = [
   {
@@ -35,10 +36,10 @@ const App = () => {
   };
 
   return (
-    <div>
+    <Wrapper>
       <NewItem onAddItem={addItemsHandler} />
       <Items itemsList={toDoList} />
-    </div>
+    </Wrapper>
   );
 };
 
